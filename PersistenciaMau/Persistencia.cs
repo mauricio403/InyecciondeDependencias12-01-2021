@@ -1,7 +1,8 @@
 ﻿using System.Collections.Generic;
 using System.IO;
-
-namespace InyecciondeDependenciasApp
+using Interfaces;
+using Entidades;
+namespace PersistenciaMau
 {
     class Persistencia : IPersistencia
     {

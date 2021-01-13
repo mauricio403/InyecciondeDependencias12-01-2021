@@ -1,8 +1,8 @@
 ﻿using System;
 
-namespace InyecciondeDependenciasApp
+namespace Entidades
 {
-    class EstudiantePorCurso
+     public class EstudiantePorCurso
     {
         public int EstudianteId { get; set; }
 

@@ -1,5 +1,7 @@
 ﻿using System;
-
+using Interfaces;
+using Negocio;
+using Entidades;
 namespace InyecciondeDependenciasApp
 {
     class Program
@@ -8,8 +10,8 @@ namespace InyecciondeDependenciasApp
         {
             Console.WriteLine("Hello World!");
 
-            //IPersistencia persistencia = new Persistencia();
-            IPersistencia persistencia = new Persistencia2();
+            IPersistencia persistencia = null; //aqui yo deberia instarciarse
+           
 
 
             Secretaria secretaria = new Secretaria(persistencia);

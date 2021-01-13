@@ -1,17 +1,16 @@
 ﻿using System;
 
-namespace InyecciondeDependenciasApp
+namespace Entidades
 {
-    class Estudiante
+    public class Curso
     {
-        public Estudiante(string nombre, string apellido)
+        public Curso(string nombre)
         {
             Nombre = nombre;
-            Apellido = apellido;
             Id = new Random().Next();
         }
+
         public string Nombre { get; set; }
-        public string Apellido { get; set; }
         public int Id { get; set; }
     }
 }

@@ -1,7 +1,9 @@
 ﻿using System.Collections.Generic;
 using System.IO;
+using Interfaces;
+using Entidades;
 
-namespace InyecciondeDependenciasApp
+namespace DatosOtro
 {
     class Persistencia2 : IPersistencia
     {
